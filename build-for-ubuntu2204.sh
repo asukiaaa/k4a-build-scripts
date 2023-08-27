@@ -25,7 +25,7 @@ tar xvf data.tar.gz
 cp usr/lib/x86_64-linux-gnu/libk4a1.4/libdepthengine.so.2.0 $WORK_DIR/usr/local/lib/
 
 # put udev rules
-UDEV_DIR=$WORK_DIR/etc/udev/rules.d
+UDEV_DIR=$WORK_DIR/lib/udev/rules.d
 mkdir -p $UDEV_DIR
 wget https://raw.githubusercontent.com/microsoft/Azure-Kinect-Sensor-SDK/develop/scripts/99-k4a.rules -P $UDEV_DIR
 
