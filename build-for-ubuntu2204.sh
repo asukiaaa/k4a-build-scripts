@@ -4,7 +4,7 @@
 WORK_DIR=$(realpath ~/debprojects/k4a/work)
 rm -r $WORK_DIR
 mkdir -p ${WORK_DIR}/DEBIAN
-OUTPUT_DEB_DIR=$(reaplath $WORK_DIR/../)
+OUTPUT_DEB_DIR=$(realpath $WORK_DIR/../)
 
 # build and put sdk
 mkdir -p ~/gitprojects
